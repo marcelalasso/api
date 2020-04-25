@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="example test suite" verbose="1">
+	<parameter name="uri" value="http://5d6fd3a8482b530014d2e8da.mockapi.io/mock/api"/>
+	<test name="example run">
+		<classes>
+			<class name="test.SimpleTest"/>
+		</classes>
+	</test>
+</suite>
